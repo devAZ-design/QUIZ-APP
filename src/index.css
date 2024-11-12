@@ -73,10 +73,25 @@ justify-content: center;
     .quiz,button{
     font-size: 19px;  
   }
-
-
-
-
-
+}
+  @media (max-width: 320px) {
+    .quiz,.result{
+   width: 110%;
+   height: 55vh;   
+    }
+    .quiz,h1{
+      padding-top: 0px;
+      margin-top: 0px;
+    font-size: 25px;  
+  }
+    .quiz,h2{
+    font-size: 20px;  
+  }
+    .quiz,p{
+    font-size: 18px;  
+  }
+    .quiz,button{
+    font-size: 15px;  
+  }
 
 }
